@@ -103,5 +103,9 @@ I may have altered some of the rules, and results just to get an even better out
 11. I will say it, they are cheating on you with your friend. How come you have not noticed yet?
 
 ## Final Note
+This game can be further improved with more information, and upgrading the results algorithm.
 
+For instance, take in more data like their age, their state of origin & current state, their best friend's name, their occupation, and all.
+
+With this data, we can enhance the algorithm to generate near correct guesses, but this is basic and has helped me understand the concepts I imagined.
 
