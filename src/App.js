@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+// import MyForm from './form/form.js';
+import Preloader from './loader/preloader';
+
 
 function App() {
   return (
-    <div className="App">
+      
+      <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      {/* <MyForm /> */}
+      {/* THIS WILL DISPLAY A PRELOADER FOR 4 SECONDS */}
+      <Preloader myForm={true} result={false} />
+
       </header>
     </div>
+    
   );
 }
 

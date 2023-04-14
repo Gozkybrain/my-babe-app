@@ -1,0 +1,60 @@
+
+.orbit {
+  position: relative;
+  display: inline-block;
+  animation: spin 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+img {
+  width: 300px; /* adjust as needed */
+  height: 300px; /* adjust as needed */
+}
+
+
+.myContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: medium;
+}
+
+.box1, .box2 {
+  width: 48%;
+  /* height: 100px; */
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  background-color: #3B5998;
+  margin-bottom: 20px;
+}
+
+.box3 {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #3b5998;
+  /* height: 200px; */
+  padding: 10px;
+  color: #3B5998;
+  background-color: #fff;
+}
+
+.mybtn {
+  /* width: 100%; */
+  border-radius: 10px;
+  border: 1px solid #3b5998;
+  /* height: 200px; */
+  padding: 10px;
+  color: #3B5998;
+  background-color: gold
+}
+

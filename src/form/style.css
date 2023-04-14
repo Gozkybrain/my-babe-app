@@ -1,0 +1,135 @@
+.form {
+  margin: 20px 20px;
+  /* text-align: center; */
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    margin: 20px 200px;
+  }
+}
+
+label {
+  text-align: left;
+  font-weight: 600;
+  font-size: medium;
+}
+
+input[type="text"],
+button,
+input[type="name"] {
+  padding: 10px;
+  border: 1px solid #282c34;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+input[type="text"],
+input[type="name"] {
+  width: 95%;
+  display: block;
+  margin: 10px 0;
+  background-color: #e2e3e4;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  margin: 20px auto;
+  padding: 10px 40px;
+  display: block;
+}
+
+button:hover {
+  background-color: #282c34;
+}
+
+
+input[type="text"]:hover,
+input[type="name"]:hover {
+  background-color: gold;
+}
+
+
+/* == THE MODAL STYLES START HERE == */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.modal-content {
+  background-color: #fff;
+  background-image: url(../images/background.GIF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: 100vh;
+  animation-name: modalFadeIn;
+  animation-duration: 0.5s;
+}
+
+/* Center the close button */
+.close-btn {
+  display: block;
+  margin: auto;
+}
+
+/* Animate the modal in and out */
+@keyframes modalFadeIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Show the modal when it's open */
+.modal.show {
+  display: block;
+}
+
+/* Hide the modal when it's closed */
+.modal.hide .modal-content {
+  animation-name: slide-out;
+  animation-duration: 0.5s;
+}
+
+/* == MODAL ENDS HERE == */
+
+
