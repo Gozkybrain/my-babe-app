@@ -17,12 +17,10 @@
 }
 
 
-
 .myLogo {
   width: 100%;
   height: 220px;
 }
-
 
 @media screen and (min-width: 600px) {
   .myLogo {
