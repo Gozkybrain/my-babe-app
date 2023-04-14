@@ -102,3 +102,6 @@ I may have altered some of the rules, and results just to get an even better out
 10. This relationship is on one bar, somehow i even think everything is your fault.
 11. I will say it, they are cheating on you with your friend. How come you have not noticed yet?
 
+## Final Note
+
+
