@@ -3,6 +3,7 @@
         "concat",
         "myload",
         "nyash",
+        "predeploy",
         "Tada",
         "webfonts"
     ]
