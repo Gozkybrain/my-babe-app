@@ -23,6 +23,7 @@
   height: 220px;
 }
 
+
 @media screen and (min-width: 600px) {
   .myLogo {
     height: 250px;
